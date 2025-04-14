@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.ropeproject
+
+# Project specific
+uploads/
+logs/
+app/training/datasets/
+app/training/models/
+app/training/evaluation_results/
+*.log
+
+# Model files
+*.pt
+*.pth
+*.h5
+*.pkl
+*.model
+*.bin
+*.onnx
+*.tflite
+*.pb
+
+# Temporary files
+*.swp
+*.swo
+.DS_Store
+*~
+tmp/
+temp/
+
+# Docker
+.dockerignore
+docker-data/
+
+# Configuration
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Test data and results
+test_images/
+test_results/
