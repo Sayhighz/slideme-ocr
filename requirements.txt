@@ -1,0 +1,17 @@
+# ไลบรารีเดิม
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-multipart>=0.0.5
+pillow>=8.3.1
+numpy>=1.21.2
+opencv-python>=4.5.3
+pytesseract>=0.3.8
+easyocr>=1.4.2
+pydantic>=1.8.2
+
+# ไลบรารีเพิ่มเติมสำหรับการฝึกฝนโมเดล
+tensorflow-macos==2.16.2
+imgaug>=0.4.0
+scikit-learn>=1.0.2
+matplotlib>=3.5.1
+keras-ocr>=0.8.9
